@@ -14,12 +14,12 @@ function Contact() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <img 
-              src="/name.png" 
-              alt="Waffle Squad" 
+            <img
+              src="/name.png"
+              alt="Waffle Squad"
               className="footer-logo-img"
               style={{ height: '60px', marginBottom: '20px', display: 'block' }}
-              onError={(e) => e.target.style.display = 'none'} 
+              onError={(e) => e.target.style.display = 'none'}
             />
             <p className="footer-text">
               Serving Thanjavur and Chennai with premium,
@@ -134,10 +134,10 @@ function Contact() {
             <h3 className="footer-title">Our Branches</h3>
 
             {/* THANJAVUR */}
-            <div className="branch-card" style={{ 
-              background: 'var(--bg-glass)', 
-              borderRadius: '16px', 
-              padding: '20px', 
+            <div className="branch-card" style={{
+              background: 'var(--bg-glass)',
+              borderRadius: '16px',
+              padding: '20px',
               borderLeft: '4px solid var(--primary)'
             }}>
               <h4 style={{ fontSize: '0.9rem', letterSpacing: '1px', marginBottom: '8px' }}>THANJAVUR</h4>
@@ -149,11 +149,11 @@ function Contact() {
             </div>
 
             {/* CHENNAI */}
-            <div className="branch-card" style={{ 
-              background: 'var(--bg-glass)', 
-              borderRadius: '16px', 
-              padding: '20px', 
-              borderLeft: '4px solid var(--primary)', 
+            <div className="branch-card" style={{
+              background: 'var(--bg-glass)',
+              borderRadius: '16px',
+              padding: '20px',
+              borderLeft: '4px solid var(--primary)',
               marginTop: '20px'
             }}>
               <h4 style={{ fontSize: '0.9rem', letterSpacing: '1px', marginBottom: '8px' }}>CHENNAI (ANNA NAGAR)</h4>
@@ -167,7 +167,7 @@ function Contact() {
         </div>
 
         <div className="footer-bottom">
-          <p style={{ opacity: 0.6 }}>© {new Date().getFullYear()} WAFFLE SQUAD • THANJAVUR & CHENNAI • CRAFTED BY HARI</p>
+          <p style={{ opacity: 0.6 }}>© {new Date().getFullYear()} Waffle Squad. All Rights Reserved. • Website developed by SANTHOSH</p>
         </div>
       </div>
     </footer>

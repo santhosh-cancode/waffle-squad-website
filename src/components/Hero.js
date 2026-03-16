@@ -56,7 +56,7 @@ function Hero() {
         >
 
           <span className="section-tag">
-            Thanjavur's Original Crunch
+            Original Crunch
           </span>
 
 
