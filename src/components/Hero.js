@@ -91,7 +91,7 @@ function Hero() {
             transition={{ delay: 1 }}
           >
             Crafted with our secret <b>No Maida</b> recipe.
-            Founded by <b>Hari</b>, we bring a transparent
+            Founded by <b>Hariharan & Brath Kisore</b>, we bring a transparent
             live-making dessert experience to every squad member.
           </motion.p>
 

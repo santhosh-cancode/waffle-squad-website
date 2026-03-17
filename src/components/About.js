@@ -61,11 +61,11 @@ function About() {
         >
           <span className="section-tag">Our Story</span>
           <h2 className="section-title">
-            The Hari's Vision <span>Transparent & Pure</span>
+            Hariharan's Vision <span>Transparent & Pure</span>
           </h2>
 
           <p className="hero-text">
-            Waffle Squad was started by <b>Hari</b> to bring honesty to dessert making. 
+            Waffle Squad was founded by <b>Hariharan</b> and Co-founded by <b>Brath Kisore</b> to bring honesty to dessert making. 
             Our kitchen is fully open so customers see everything live. We believe 
             in transparency—from the ingredients we use to the way we serve.
           </p>

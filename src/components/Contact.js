@@ -113,6 +113,8 @@ function Contact() {
               </div>
             </div>
 
+
+
             <div className="contact-item">
               <span style={{ fontSize: '1.5rem', opacity: 0.8 }}>📞</span>
               <div>
@@ -122,6 +124,24 @@ function Contact() {
                 </a>
               </div>
             </div>
+
+            {/* SMALL FRANCHISE CARD */}
+            <div style={{ 
+              marginTop: '30px', 
+              padding: '15px', 
+              background: 'rgba(255, 215, 0, 0.05)', 
+              borderRadius: '12px', 
+              border: '1px dashed rgba(255, 215, 0, 0.3)' 
+            }}>
+              <p style={{ color: 'var(--primary)', fontSize: '0.75rem', fontWeight: '700', letterSpacing: '1px', marginBottom: '5px' }}>FRANCHISE AVAILABLE 🤝</p>
+              <p style={{ fontSize: '0.8rem', opacity: 0.7, marginBottom: '10px', lineHeight: '1.4' }}>Join the Squad across Tamil Nadu. Inquire now:</p>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                <a href="tel:+917904919397" style={{ color: '#fff', fontSize: '0.85rem', textDecoration: 'none', fontWeight: '600' }}>📞 +91 7904919397</a>
+                <a href="mailto:wafflesquadthanjavur@gmail.com" style={{ color: 'var(--primary)', fontSize: '0.8rem', textDecoration: 'none' }}>✉️ Email Inquiry</a>
+              </div>
+            </div>
+
+
           </motion.div>
 
           {/* BRANCHES */}
@@ -143,9 +163,14 @@ function Contact() {
               <h4 style={{ fontSize: '0.9rem', letterSpacing: '1px', marginBottom: '8px' }}>THANJAVUR</h4>
               <p style={{ margin: '0 0 4px', opacity: 0.9, fontSize: '0.85rem' }}>91, N Main St, Thanjavur, 613009</p>
               <p style={{ margin: '0 0 10px', fontSize: '0.85rem', color: 'var(--primary)', fontWeight: '600' }}>📞 +91 7904919397</p>
-              <a href="https://share.google/4s63ll1o0ZAiDEPvp" target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: 'var(--primary)', fontWeight: '700', opacity: 0.8 }}>
-                View Maps →
-              </a>
+              <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+                <a href="https://share.google/4s63ll1o0ZAiDEPvp" target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: 'var(--primary)', fontWeight: '700', opacity: 0.8 }}>
+                  View Maps →
+                </a>
+                <a href="https://www.google.com/search?q=Waffle+squad+Reviews#lrd=0x3baab9a7e32d9821:0xa15735fa0b539f1b,3,,,," target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: '#fff', background: 'rgba(255,215,0,0.1)', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgba(255,215,0,0.2)' }}>
+                  Kindly share ur review ⭐
+                </a>
+              </div>
             </div>
 
             {/* CHENNAI */}
@@ -159,12 +184,19 @@ function Contact() {
               <h4 style={{ fontSize: '0.9rem', letterSpacing: '1px', marginBottom: '8px' }}>CHENNAI (ANNA NAGAR)</h4>
               <p style={{ margin: '0 0 4px', opacity: 0.9, fontSize: '0.85rem' }}>11th Main Rd, Anna Nagar, 600040</p>
               <p style={{ margin: '0 0 10px', fontSize: '0.85rem', color: 'var(--primary)', fontWeight: '600' }}>📞 +91 8838051336</p>
-              <a href="https://maps.app.goo.gl/2zaXsF8pgidhBsJn7" target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: 'var(--primary)', fontWeight: '700', opacity: 0.8 }}>
-                View Maps →
-              </a>
+              <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+                <a href="https://maps.app.goo.gl/2zaXsF8pgidhBsJn7" target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: 'var(--primary)', fontWeight: '700', opacity: 0.8 }}>
+                  View Maps →
+                </a>
+                <a href="https://www.google.com/search?q=WAFFLE+SQUAD+Reviews#lrd=0x3a52650032c4e211:0x9dda117b0743bde9,3,,,," target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: '#fff', background: 'rgba(255,215,0,0.1)', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgba(255,215,0,0.2)' }}>
+                  Kindly share ur review ⭐
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>
+
+
 
         <div className="footer-bottom">
           <p style={{ opacity: 0.6 }}>© {new Date().getFullYear()} Waffle Squad. All Rights Reserved. • Website developed by SANTHOSH</p>
