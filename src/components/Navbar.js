@@ -15,18 +15,18 @@ function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
       <div className="container navbar-content">
         <div className="navbar-brand">
-          <img 
-            src="/logo.png" 
-            alt="Logo" 
-            className="navbar-logo" 
-            onError={(e) => e.target.style.display = 'none'} 
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="navbar-logo"
+            onError={(e) => e.target.style.display = 'none'}
           />
-          <img 
-            src="/name.png" 
-            alt="Waffle Squad Name" 
+          <img
+            src="/name.png"
+            alt="Waffle Squad Name"
             className="navbar-name-img"
             style={{ height: '45px', marginLeft: '10px' }}
-            onError={(e) => e.target.style.display = 'none'} 
+            onError={(e) => e.target.style.display = 'none'}
           />
         </div>
 
@@ -39,11 +39,11 @@ function Navbar() {
         </nav>
 
         <div className="navbar-actions">
-          <a 
-            href="https://instagram.com/wafflesquad_thanjavur" 
-            target="_blank" 
-            rel="noreferrer" 
-            className="social-icon-link desktop-only" 
+          <a
+            href=" https://www.instagram.com/waffle_squad_thanjavur01?igsh=MWp5M2E1dGptejdoZg==&utm_source=ig_contact_invite"
+            target="_blank"
+            rel="noreferrer"
+            className="social-icon-link desktop-only"
             aria-label="Instagram"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

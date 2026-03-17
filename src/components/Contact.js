@@ -30,7 +30,7 @@ function Contact() {
 
             <div className="footer-socials">
               {[
-                { icon: <FaInstagram />, link: "https://instagram.com/wafflesquad_thanjavur" },
+                { icon: <FaInstagram />, link: " https://www.instagram.com/waffle_squad_thanjavur01?igsh=MWp5M2E1dGptejdoZg==&utm_source=ig_contact_invite" },
                 { icon: <FaFacebookF />, link: "https://facebook.com" },
                 { icon: <FaWhatsapp />, link: "https://wa.me/917904919397" }
               ].map((s, idx) => (
