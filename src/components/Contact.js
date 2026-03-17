@@ -126,12 +126,12 @@ function Contact() {
             </div>
 
             {/* SMALL FRANCHISE CARD */}
-            <div style={{ 
-              marginTop: '30px', 
-              padding: '15px', 
-              background: 'rgba(255, 215, 0, 0.05)', 
-              borderRadius: '12px', 
-              border: '1px dashed rgba(255, 215, 0, 0.3)' 
+            <div style={{
+              marginTop: '30px',
+              padding: '15px',
+              background: 'rgba(255, 215, 0, 0.05)',
+              borderRadius: '12px',
+              border: '1px dashed rgba(255, 215, 0, 0.3)'
             }}>
               <p style={{ color: 'var(--primary)', fontSize: '0.75rem', fontWeight: '700', letterSpacing: '1px', marginBottom: '5px' }}>FRANCHISE AVAILABLE 🤝</p>
               <p style={{ fontSize: '0.8rem', opacity: 0.7, marginBottom: '10px', lineHeight: '1.4' }}>Join the Squad across Tamil Nadu. Inquire now:</p>
@@ -199,7 +199,7 @@ function Contact() {
 
 
         <div className="footer-bottom">
-          <p style={{ opacity: 0.6 }}>© {new Date().getFullYear()} Waffle Squad. All Rights Reserved. • Website developed by SANTHOSH</p>
+          <p style={{ opacity: 0.6 }}>© {new Date().getFullYear()} Waffle Squad. </p>
         </div>
       </div>
     </footer>
