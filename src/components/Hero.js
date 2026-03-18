@@ -91,7 +91,7 @@ function Hero() {
             transition={{ delay: 1 }}
           >
             Crafted with our secret <b>No Maida</b> recipe.
-            Founded by <b>Hariharan & Brath Kisore</b>, we bring a transparent
+            Founded by <b>Hariharan & Barath Kishore</b>, we bring a transparent
             live-making dessert experience to every squad member.
           </motion.p>
 
@@ -166,46 +166,26 @@ function Hero() {
             style={{ 
               marginTop: '40px', 
               display: 'flex', 
-              alignItems: 'center', 
-              gap: '20px',
+              flexDirection: 'column',
+              gap: '15px',
               borderTop: '1px solid rgba(255,255,255,0.1)',
               paddingTop: '25px'
             }}
           >
-            <span style={{ fontSize: '0.65rem', color: 'var(--text-muted)', fontWeight: '700', letterSpacing: '2px' }}>ORDER ONLINE:</span>
-            <div style={{ display: 'flex', gap: '12px' }}>
-              <a 
-                href="https://zomato.onelink.me/xqzv/jkwt0g87" 
-                target="_blank" 
-                rel="noreferrer"
-                style={{
-                  padding: '8px 18px',
-                  borderRadius: '100px',
-                  background: 'rgba(235, 53, 56, 0.1)',
-                  color: '#eb3538',
-                  fontSize: '0.75rem',
-                  fontWeight: '700',
-                  textDecoration: 'none',
-                  border: '1px solid rgba(235, 53, 56, 0.2)',
-                  transition: '0.3s ease'
-                }}
-              >ZOMATO</a>
-              <a 
-                href="https://www.swiggy.com/menu/984090?source=sharing" 
-                target="_blank" 
-                rel="noreferrer"
-                style={{
-                  padding: '8px 18px',
-                  borderRadius: '100px',
-                  background: 'rgba(252, 128, 25, 0.1)',
-                  color: '#fc8019',
-                  fontSize: '0.75rem',
-                  fontWeight: '700',
-                  textDecoration: 'none',
-                  border: '1px solid rgba(252, 128, 25, 0.2)',
-                  transition: '0.3s ease'
-                }}
-              >SWIGGY</a>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+              <span style={{ fontSize: '0.7rem', color: '#fff', fontWeight: '700', letterSpacing: '1px', width: '95px' }}>THANJAVUR:</span>
+              <div style={{ display: 'flex', gap: '12px' }}>
+                <a href="https://zomato.onelink.me/xqzv/jkwt0g87" target="_blank" rel="noreferrer" style={{ boxSizing: 'border-box', width: '80px', textAlign: 'center', display: 'inline-block', padding: '6px 0', borderRadius: '100px', background: 'rgba(235, 53, 56, 0.1)', color: '#eb3538', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none', border: '1px solid rgba(235, 53, 56, 0.2)', transition: '0.3s ease' }}>Zomato</a>
+                <a href="https://www.swiggy.com/menu/984090?source=sharing" target="_blank" rel="noreferrer" style={{ boxSizing: 'border-box', width: '80px', textAlign: 'center', display: 'inline-block', padding: '6px 0', borderRadius: '100px', background: 'rgba(252, 128, 25, 0.1)', color: '#fc8019', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none', border: '1px solid rgba(252, 128, 25, 0.2)', transition: '0.3s ease' }}>Swiggy</a>
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+              <span style={{ fontSize: '0.7rem', color: '#fff', fontWeight: '700', letterSpacing: '1px', width: '95px' }}>CHENNAI:</span>
+              <div style={{ display: 'flex', gap: '12px' }}>
+                <a href="https://zomato.onelink.me/xqzv/l1393sx4" target="_blank" rel="noreferrer" style={{ boxSizing: 'border-box', width: '80px', textAlign: 'center', display: 'inline-block', padding: '6px 0', borderRadius: '100px', background: 'rgba(235, 53, 56, 0.1)', color: '#eb3538', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none', border: '1px solid rgba(235, 53, 56, 0.2)', transition: '0.3s ease' }}>Zomato</a>
+                <a href="https://www.swiggy.com/menu/1125865?source=sharing" target="_blank" rel="noreferrer" style={{ boxSizing: 'border-box', width: '80px', textAlign: 'center', display: 'inline-block', padding: '6px 0', borderRadius: '100px', background: 'rgba(252, 128, 25, 0.1)', color: '#fc8019', fontSize: '0.75rem', fontWeight: '700', textDecoration: 'none', border: '1px solid rgba(252, 128, 25, 0.2)', transition: '0.3s ease' }}>Swiggy</a>
+              </div>
             </div>
           </motion.div>
 

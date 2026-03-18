@@ -7,7 +7,8 @@ function NoticeBar() {
     "⚠️ PRE-BOOKING AVAILABLE – CALL ONLY",
     "🌿 100% MAIDA FREE RECIPE",
     "✨ LIVE KITCHEN TRANSPARENCY",
-    "🏙️ THANJAVUR LOCATION – NORTH MAIN STREET"
+    "🏙️ THANJAVUR LOCATION – NORTH MAIN STREET",
+    "🏙️ CHENNAI LOCATION – 11th Main Rd, Anna Nagar, Block AE, Anna Nagar, Chennai"
   ];
 
   return (

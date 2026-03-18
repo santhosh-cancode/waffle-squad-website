@@ -65,7 +65,7 @@ function About() {
           </h2>
 
           <p className="hero-text">
-            Waffle Squad was founded by <b>Hariharan</b> and Co-founded by <b>Brath Kisore</b> to bring honesty to dessert making. 
+            Waffle Squad was founded by <b>Hariharan</b> and Co-founded by <b>Barath Kishore</b> to bring honesty to dessert making. 
             Our kitchen is fully open so customers see everything live. We believe 
             in transparency—from the ingredients we use to the way we serve.
           </p>

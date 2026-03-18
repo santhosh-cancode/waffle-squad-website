@@ -46,7 +46,7 @@ function Contact() {
             >
               {/* ZOMATO */}
               <a
-                href="https://zomato.onelink.me/xqzv/jkwt0g87"
+                href="https://www.zomato.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -65,7 +65,7 @@ function Contact() {
 
               {/* SWIGGY */}
               <a
-                href="https://www.swiggy.com/menu/984090?source=sharing"
+                href="https://www.swiggy.com"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -125,19 +125,69 @@ function Contact() {
               </div>
             </div>
 
-            {/* SMALL FRANCHISE CARD */}
             <div style={{
-              marginTop: '30px',
-              padding: '15px',
-              background: 'rgba(255, 215, 0, 0.05)',
-              borderRadius: '12px',
-              border: '1px dashed rgba(255, 215, 0, 0.3)'
+              marginTop: '40px',
+              padding: '24px',
+              background: 'linear-gradient(145deg, rgba(255, 215, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%)',
+              borderRadius: '20px',
+              border: '1px solid rgba(255, 215, 0, 0.2)',
+              boxShadow: '0 10px 30px rgba(0,0,0,0.2)'
             }}>
-              <p style={{ color: 'var(--primary)', fontSize: '0.75rem', fontWeight: '700', letterSpacing: '1px', marginBottom: '5px' }}>FRANCHISE AVAILABLE 🤝</p>
-              <p style={{ fontSize: '0.8rem', opacity: 0.7, marginBottom: '10px', lineHeight: '1.4' }}>Join the Squad across Tamil Nadu. Inquire now:</p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                <a href="tel:+917904919397" style={{ color: '#fff', fontSize: '0.85rem', textDecoration: 'none', fontWeight: '600' }}>📞 +91 7904919397</a>
-                <a href="mailto:wafflesquadthanjavur@gmail.com" style={{ color: 'var(--primary)', fontSize: '0.8rem', textDecoration: 'none' }}>✉️ Email Inquiry</a>
+              <p style={{ 
+                color: 'var(--primary)', 
+                fontSize: '0.9rem', 
+                fontWeight: '800', 
+                letterSpacing: '2px', 
+                marginBottom: '8px',
+                textTransform: 'uppercase'
+              }}>
+                Franchise Available 🚀
+              </p>
+              <p style={{ 
+                fontSize: '0.85rem', 
+                opacity: 0.9, 
+                marginBottom: '18px', 
+                lineHeight: '1.5',
+                color: '#eee'
+              }}>
+                Be a part of our <b>No-Maida Revolution</b> across TN!
+              </p>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                <a href="tel:+917904919397" style={{ 
+                  background: 'var(--primary)', 
+                  color: '#000', 
+                  fontSize: '0.8rem', 
+                  textDecoration: 'none', 
+                  fontWeight: '700',
+                  padding: '10px',
+                  borderRadius: '10px',
+                  textAlign: 'center',
+                  display: 'block',
+                  transition: '0.3s'
+                }}
+                onMouseEnter={(e) => e.target.style.transform = 'scale(1.02)'}
+                onMouseLeave={(e) => e.target.style.transform = 'scale(1)'}
+                >
+                  📞 Call +91 7904919397
+                </a>
+                <a href="mailto:wafflesquadthanjavur@gmail.com" style={{ 
+                  background: 'rgba(255, 255, 255, 0.05)', 
+                  color: '#fff', 
+                  fontSize: '0.8rem', 
+                  textDecoration: 'none', 
+                  fontWeight: '600',
+                  padding: '10px',
+                  borderRadius: '10px',
+                  textAlign: 'center',
+                  border: '1px solid rgba(255, 255, 255, 0.1)',
+                  display: 'block',
+                  transition: '0.3s'
+                }}
+                onMouseEnter={(e) => e.target.style.background = 'rgba(255, 255, 255, 0.1)'}
+                onMouseLeave={(e) => e.target.style.background = 'rgba(255, 255, 255, 0.05)'}
+                >
+                  ✉️ Email for Details
+                </a>
               </div>
             </div>
 
@@ -163,12 +213,47 @@ function Contact() {
               <h4 style={{ fontSize: '0.9rem', letterSpacing: '1px', marginBottom: '8px' }}>THANJAVUR</h4>
               <p style={{ margin: '0 0 4px', opacity: 0.9, fontSize: '0.85rem' }}>91, N Main St, Thanjavur, 613009</p>
               <p style={{ margin: '0 0 10px', fontSize: '0.85rem', color: 'var(--primary)', fontWeight: '600' }}>📞 +91 7904919397</p>
-              <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+              <div style={{ display: 'flex', gap: '15px', alignItems: 'center', marginBottom: '15px' }}>
                 <a href="https://share.google/4s63ll1o0ZAiDEPvp" target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: 'var(--primary)', fontWeight: '700', opacity: 0.8 }}>
                   View Maps →
                 </a>
-                <a href="https://www.google.com/search?q=Waffle+squad+Reviews#lrd=0x3baab9a7e32d9821:0xa15735fa0b539f1b,3,,,," target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: '#fff', background: 'rgba(255,215,0,0.1)', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgba(255,215,0,0.2)' }}>
-                  Kindly share ur review ⭐
+                <a 
+                  href="https://www.google.com/search?q=Waffle+squad+Reviews#lrd=0x3baab9a7e32d9821:0xa15735fa0b539f1b,3,,,," 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  style={{ 
+                    fontSize: '0.65rem', 
+                    textTransform: 'uppercase', 
+                    letterSpacing: '1px', 
+                    textDecoration: 'none', 
+                    color: 'var(--primary)', 
+                    background: 'rgba(255,215,0,0.05)', 
+                    padding: '6px 14px', 
+                    borderRadius: '50px', 
+                    border: '1px solid rgba(255,215,0,0.4)',
+                    fontWeight: '800',
+                    transition: '0.3s'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.background = 'var(--primary)';
+                    e.target.style.color = '#000';
+                    e.target.style.boxShadow = '0 0 15px rgba(255,215,0,0.3)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.background = 'rgba(255,215,0,0.05)';
+                    e.target.style.color = 'var(--primary)';
+                    e.target.style.boxShadow = 'none';
+                  }}
+                >
+                  KINDLY RATE US ⭐
+                </a>
+              </div>
+              <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+                <a href="https://zomato.onelink.me/xqzv/jkwt0g87" target="_blank" rel="noreferrer">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" alt="Zomato" style={{ height: "30px", cursor: "pointer", transition: "0.3s" }} onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")} onMouseLeave={(e) => (e.target.style.transform = "scale(1)")} />
+                </a>
+                <a href="https://www.swiggy.com/menu/984090?source=sharing" target="_blank" rel="noreferrer">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png" alt="Swiggy" style={{ height: "30px", cursor: "pointer", transition: "0.3s" }} onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")} onMouseLeave={(e) => (e.target.style.transform = "scale(1)")} />
                 </a>
               </div>
             </div>
@@ -184,12 +269,47 @@ function Contact() {
               <h4 style={{ fontSize: '0.9rem', letterSpacing: '1px', marginBottom: '8px' }}>CHENNAI (ANNA NAGAR)</h4>
               <p style={{ margin: '0 0 4px', opacity: 0.9, fontSize: '0.85rem' }}>11th Main Rd, Anna Nagar, 600040</p>
               <p style={{ margin: '0 0 10px', fontSize: '0.85rem', color: 'var(--primary)', fontWeight: '600' }}>📞 +91 8838051336</p>
-              <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+              <div style={{ display: 'flex', gap: '15px', alignItems: 'center', marginBottom: '15px' }}>
                 <a href="https://maps.app.goo.gl/2zaXsF8pgidhBsJn7" target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: 'var(--primary)', fontWeight: '700', opacity: 0.8 }}>
                   View Maps →
                 </a>
-                <a href="https://www.google.com/search?q=WAFFLE+SQUAD+Reviews#lrd=0x3a52650032c4e211:0x9dda117b0743bde9,3,,,," target="_blank" rel="noreferrer" style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', textDecoration: 'none', color: '#fff', background: 'rgba(255,215,0,0.1)', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgba(255,215,0,0.2)' }}>
-                  Kindly share ur review ⭐
+                <a 
+                  href="https://www.google.com/search?q=WAFFLE+SQUAD+Reviews#lrd=0x3a52650032c4e211:0x9dda117b0743bde9,3,,,," 
+                  target="_blank" 
+                  rel="noreferrer" 
+                  style={{ 
+                    fontSize: '0.65rem', 
+                    textTransform: 'uppercase', 
+                    letterSpacing: '1px', 
+                    textDecoration: 'none', 
+                    color: 'var(--primary)', 
+                    background: 'rgba(255,215,0,0.05)', 
+                    padding: '6px 14px', 
+                    borderRadius: '50px', 
+                    border: '1px solid rgba(255,215,0,0.4)',
+                    fontWeight: '800',
+                    transition: '0.3s'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.background = 'var(--primary)';
+                    e.target.style.color = '#000';
+                    e.target.style.boxShadow = '0 0 15px rgba(255,215,0,0.3)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.background = 'rgba(255,215,0,0.05)';
+                    e.target.style.color = 'var(--primary)';
+                    e.target.style.boxShadow = 'none';
+                  }}
+                >
+                  KINDLY RATE US ⭐
+                </a>
+              </div>
+              <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+                <a href="https://zomato.onelink.me/xqzv/l1393sx4" target="_blank" rel="noreferrer">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" alt="Zomato" style={{ height: "30px", cursor: "pointer", transition: "0.3s" }} onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")} onMouseLeave={(e) => (e.target.style.transform = "scale(1)")} />
+                </a>
+                <a href="https://www.swiggy.com/menu/1125865?source=sharing" target="_blank" rel="noreferrer">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png" alt="Swiggy" style={{ height: "30px", cursor: "pointer", transition: "0.3s" }} onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")} onMouseLeave={(e) => (e.target.style.transform = "scale(1)")} />
                 </a>
               </div>
             </div>
