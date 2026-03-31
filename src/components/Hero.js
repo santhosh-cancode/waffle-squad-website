@@ -77,20 +77,8 @@ function Hero() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
-              style={{ display: 'inline-flex', alignItems: 'center' }}
             >
               Waffles
-              <motion.div 
-                className="verified-tick" 
-                initial={{ scale: 0, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ delay: 1, type: "spring", stiffness: 200 }}
-                style={{ color: '#0095f6', marginLeft: '12px' }}
-              >
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                </svg>
-              </motion.div>
             </motion.span>
 
           </h1>
