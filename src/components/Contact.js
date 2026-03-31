@@ -13,14 +13,35 @@ function Contact() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
+            style={{ position: 'relative' }}
           >
-            <img
-              src="/name.png"
-              alt="Waffle Squad"
-              className="footer-logo-img"
-              style={{ height: '60px', marginBottom: '20px', display: 'block' }}
-              onError={(e) => e.target.style.display = 'none'}
-            />
+            <div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
+              <img
+                src="/logo.png"
+                alt="Waffle Squad"
+                className="footer-logo-img"
+                style={{ height: '50px', marginRight: '15px' }}
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "https://img.icons8.com/color/96/waffle.png";
+                }}
+              />
+              <img
+                src="/name.png"
+                alt="Waffle Squad Name"
+                style={{ height: '35px' }}
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'block';
+                }}
+              />
+              <h2 className="navbar-title" style={{ display: 'none', margin: 0, fontSize: '1.5rem' }}>WAFFLE SQUAD</h2>
+              <div className="verified-tick" style={{ color: '#0095f6', marginLeft: '6px' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                </svg>
+              </div>
+            </div>
             <p className="footer-text">
               Serving Thanjavur and Chennai with premium,
               <b> maida-free waffles.</b> Experience the art of
